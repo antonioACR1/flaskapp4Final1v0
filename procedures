@@ -1,0 +1,2 @@
+CREATE PROCEDURE `sp_createUser`(IN p_age INT(11), IN p_region INT(11), IN p_sex INT(11), IN p_answer1 INT(11), IN p_answer2 INT(11), IN p_answer3 INT(11), IN p_answer4 INT(11), IN p_answer5 INT(11), IN p_answer6 INT(11), IN p_song VARCHAR(1000), IN p_artist VARCHAR(1000), IN p_link VARCHAR(1000))
+BEGIN INSERT INTO answers (age,region,sex,answer1,answer2,answer3,answer4,answer5,answer6,nameSong,nameArtist,link,accepted) VALUES (p_age,p_region,p_sex,p_answer1,p_answer2,p_answer3,p_answer4,p_answer5,p_answer6,p_song,p_artist,p_link,0); END
