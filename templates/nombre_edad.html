@@ -25,7 +25,7 @@
       </div>
  
       <div class="jumbotron">
-        <form class="form-signin" action = "http://localhost:5000/suggestSong" method = "POST">
+        <form class="form-signin" action = "http://antonioacr1.pythonanywhere.com/suggestSong" method = "POST">
         <h2>Select your age</h2>
         <label for="inputAge" class="sr-only">Age</label>
        <select name="inputAge" id="inputAge" required>
@@ -141,6 +141,7 @@
 <option value="2" label="Central America">Central America</option>
 <option value="3" label="Eastern Europe">Eastern Europe</option>
 <option value="4" label="European Union">European Union</option>
+<option value="" disabled selected>England,France,Germany,Spain,Italy,The Netherlands</option>
 <option value="5" label="Middle East">Middle East</option>
 <option value="6" label="North America">North America</option>
 <option value="" disabled selected>Canada, United States, Mexico</option>
@@ -194,7 +195,7 @@
 	<label for="inputAnswer4">One person at a time</label>
 
 	<h2> What color do you prefer? </h2>
-	<label for="inputAnswer5" class="sr-only">Region</label>
+	<label for="inputAnswer5" class="sr-only">Color</label>
         <select name="inputAnswer5" id="inputAnswer5" required>
 	<option value="" disabled selected>Select Color</option>
 	<option value="0" label="Red">Red</option>
